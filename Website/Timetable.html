@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes &amp; Courses | DoBu Martial Arts</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">Do<span>Bu</span></a>
+      <ul class="nav-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Instructors.html">About &amp; Instructors</a></li>
+        <li><a href="Classes.html">Classes &amp; Courses</a></li>
+        <li><a href="Timetable.html" class="active">Timetable</a></li>
+        <li><a href="Membership.html">Pricing &amp; Membership</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="Login.html" class="btn-login">Login</a>
+        <a href="Signup.html" class="btn-signup">Sign Up</a>
+      </div>
+      <button class="hamburger" id="menu-btn" aria-label="Toggle menu" onclick="var m=document.getElementById('mobile-nav');m.classList.toggle('open');this.classList.toggle('open');"><span></span><span></span><span></span></button>
+    </nav>
+    <div class="mobile-menu" id="mobile-nav">
+      <a href="Index.html">Home</a>
+      <a href="Instructors.html">About &amp; Instructors</a>
+      <a href="Classes.html">Classes &amp; Courses</a>
+      <a href="Timetable.html">Timetable</a><a href="pricing.html">Pricing &amp; Membership</a>
+      <a href="Contact.html">Contact Us</a>
+      <div class="mobile-actions"><a href="Login.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.75rem;">Login</a>
+        <a href="Signup.html" class="btn btn-primary" style="padding:10px 20px;font-size:0.75rem;">Sign Up</a></div>
+    </div>
+  </header>
+
+  <main>
+<!-- Page Hero -->
+    <section class="page-hero">
+      <div class="page-hero-content">
+        <h1>Weekly Timetable</h1>
+        <div class="divider"></div>
+      </div>
+    </section>
+
+      <section class="timetable-section" id="timetable">
+    <div class="container">
+      <h2 class="sr-only">Class Timetable</h2>
+      <table class="table-wrapper">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            <th>SUN</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>6:00-7:30</td>
+            <td>Jiu-jitsu</td>
+            <td>Karate</td>
+            <td>Judo</td>
+            <td>Jiu-jitsu</td>
+            <td>Judo</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>8:00-10:00</td>
+            <td>Muay Time</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+            <td>Jiu-jitsu</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+          </tr>
+          <tr>
+            <td>10:30-12:00</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+            <td>Private tuition</td>
+            <td>Judo</td>
+            <td>Karate</td>
+          </tr>
+          <tr>
+            <td>13:00-14:30</td>
+            <td>Open mat/Personal Practice</td>
+            <td>Open mat/Personal Practice</td>
+            <td>Open mat/Personal Practice</td>
+            <td>Open mat/Personal Practice</td>
+            <td>Open mat/Personal Practice</td>
+            <td>Karate</td>
+            <td>Judo</td>
+          </tr>
+          <tr>
+            <td>15:00-17:00</td>
+            <td>Kids Jiu-jitsu</td>
+            <td>Kids Judo</td>
+            <td>Kids Karate</td>
+            <td>Kids Jiu-jitsu</td>
+            <td>Kids Judo</td>
+            <td>Muay Thai</td>
+            <td>Jiu-jitsu</td>
+          </tr>
+          <tr>
+            <td>17:30-19:00</td>
+            <td>Karate</td>
+            <td>Muay Thai</td>
+            <td>Judo</td>
+            <td>Jiu-jitsu</td>
+            <td>Muay Thai</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>19:00-21:00</td>
+            <td>Jiu-jitsu</td>
+            <td>Judo</td>
+            <td>Jiu-jitsu</td>
+            <td>Karate</td>
+            <td>Private tuition</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- About -->
+        <div class="footer-col">
+          <span class="logo">Do<span>Bu</span></span>
+          <p>Empowering individuals through the art of martial arts since 2005. Building discipline, confidence, and physical fitness in a welcoming, professional environment.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Instructors.html">About &amp; Instructors</a></li>
+            <li><a href="Classes.html">Classes &amp; Courses</a></li>
+            <li><a href="Timetable.html">Timetable</a></li>
+            <li><a href="Membership.html">Pricing &amp; Membership</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i><span>123 Martial Arts Way<br>London, E1 6AB, UK</span></li>
+            <li><i class="fas fa-phone"></i><span>020 1234 5678</span></li>
+            <li><i class="fas fa-envelope"></i><span>info@dobumartialarts.co.uk</span></li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="footer-col">
+          <h3>Follow Us</h3>
+         <div class="social-icons">
+            <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/?hl=en" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 DoBu Martial Arts. All Rights Reserved.</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
